@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Slagalica</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">\@d</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Podesavanja</string>
+    <string name="search_players_tab_title">Igraci</string>
+    <string name="main_tab_title">Igre</string>
+
+    <string name="menu_home">Pocetna</string>
+    <string name="menu_profile">Moj profil</string>
+    <string name="menu_logout">Odjavi se</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="large_text">
+
+    </string>
+    <string name="large_text_2">"3D world."
+
+        </string>
+    <string name="random_match">Igraj</string>
+    <string name="friendly_match">Izazovi prijatelja</string>
+    <string name="title_activity_splash_screen">Ucitavanje</string>
+    <string name="title_activity_login">Prijava na sistem</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Lozinka</string>
+    <string name="action_sign_in">Prijavi se</string>
+    <string name="action_sign_in_short">Prijavi se</string>
+    <string name="welcome">"Dobro dosli !"</string>
+    <string name="invalid_username">Greska kod lozinke</string>
+    <string name="invalid_password">Minimum pet karaktera</string>
+    <string name="login_failed">"Prijava neuspesna"</string>
+    <string name="email">Email </string>
+    <string name="prompt_username">Korisnicko ime</string>
+    <string name="prompt_repeat_password">Ponovljena lozinka</string>
+    <string name="action_sign_up">Registruj se</string>
+    <string name="action_sign_up_short">Registruj se</string>
+    <string name="title_activity_register">Registracija</string>
+    <string name="already_registered">Imas nalog?</string>
+    <string name="not_registered">Nemas nalog?</string>
+    <string name="to_login">Predji Na prijavu</string>
+    <string name="to_register">Predji Na registraciju</string>
+    <string name="menu_login">Prijavi se</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

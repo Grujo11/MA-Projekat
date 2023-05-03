@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orange_dark"
+    tools:context=".KoZnaZnaActivity">
+
+    <RelativeLayout
+        android:id="@+id/headMojBroj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:progress="90"
+            android:progressTint="#04FF23"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/step1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#8966C6"
+            android:padding="10dp"
+            android:text="Step 1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/step2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#8966C6"
+            android:padding="10dp"
+            android:text="Step 2"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/step3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#8966C6"
+            android:padding="10dp"
+            android:text="Step 3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/step4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#8966C6"
+            android:padding="10dp"
+            android:text="Step 4"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/step5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#8966C6"
+            android:padding="10dp"
+            android:text="Step 5"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/step6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#8966C6"
+            android:padding="10dp"
+            android:text="Step 6"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/step7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#8966C6"
+            android:padding="10dp"
+            android:text="Step 7"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editAnswer"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:hint="Answer"
+                android:textAlignment="center" />
+
+            <ImageButton
+                android:id="@+id/iconOkKorakPoKorak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#673AB7"
+                app:srcCompat="@drawable/baseline_check_24"
+                app:tint="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_weight=".05"
+        android:clickable="true"
+        android:onClick="fab5" />
+
+</LinearLayout>
